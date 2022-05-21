@@ -1,0 +1,168 @@
+.nav-home{
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-home a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav{background-color: blue;
+    height: 4rem;
+    color: whitesmoke;
+    
+}
+.nav-links{
+    float: right;
+    padding-top: .5rem;
+    list-style-type: none;
+}
+.nav-link{
+    color: whitesmoke;
+    display: inline-block;
+    padding-right: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-link a:hover{
+    color: lightgray;
+}
+.avatar{
+    float: right;
+    /* background-color: whitesmoke; */
+    background-image: url(../Images/profilePic3.png);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5000px;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+main{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    /* background-color: lightgray; */
+}
+.header{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.banner{
+    background-color: blue;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+.banner a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    font-size: 50px;
+
+}
+.banner a:hover{
+    color: lightgray;
+}
+.banner-image1, .banner-image2, .banner-image3{
+    display: inline-block;
+    background-color: whitesmoke;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5000px;
+    margin-top: .5rem;
+}
+.banner-image1{
+    background-image: url(../Images/twitterIcon.png);
+    background-size: cover;
+
+}
+.banner-image2{
+    background-image: url(../Images/instagramIcon.png);
+    background-size: cover;
+}
+.banner-image3{
+    background-image: url(../Images/facebookIcon.png);
+    background-size: cover;
+}
+.banner-text{
+    display: inline-block;
+    /* text-align: center; */
+    justify-content: center;
+    width: 80%
+
+}
+.footer{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: tomato; */
+    width: 100%;
+    font-size: 20px;
+}
+/* MEDIA QUERY TABLET */
+
+@media screen and (max-width: 800px){
+    nav{
+        background-color: green;
+    }
+
+    .nav-home{
+        font-size: 1.25rem;
+        display: flex;
+        height: 100%;
+        margin: 0;
+        align-items: center;
+    }
+
+    nav a{
+        font-size: .80rem;
+    }
+
+    main{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        
+    }
+
+    .banner-image1, .banner-image2, .banner-image3{
+        height: 3rem;
+        width: 3rem;
+    }
+}
+@media screen and (max-width: 500px){
+    nav{
+        background-color: red;
+    
+    }
+
+    .nav-home{
+        font-size: 1.25rem;
+    }
+
+    .nav-links{
+        padding-top: .25rem;
+        margin: 0;
+    }
+
+    .nav-link{
+        display: block;
+    }
+
+    nav a{
+        font-size: .80rem;
+    }
+    
+    main{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
